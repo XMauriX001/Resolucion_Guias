@@ -1,0 +1,117 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d3d3d3;
+    line-height: 2;
+}
+
+.main-title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    color: #008000;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#foto-breaking_bad {
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Sinopsis h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #008000;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.sinopsis-text {
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.Produccion h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #008000;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.produccion-text {
+    font-size: 1em;
+    text-align: center;
+}
+
+.personajes-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.personajes-table th,
+.personajes-table td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.personajes-table th {
+    background-color: #008000;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.personaje-image {
+    width: 80%;
+    max-width: 125px;
+    height: auto;
+    display: block;
+
+    /* Centrado */
+    margin: 0 auto;
+}
+
+.temporadas-section {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.temporada-image {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+
+    /* Centrado */
+    margin: 0 auto;
+}
+
+.temporadas-section h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #008000;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.footer-text {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 20px;
+    color: #7f8c8d;
+    font-family: 'Open Sans', sans-serif;
+}
