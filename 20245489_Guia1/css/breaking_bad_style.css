@@ -151,8 +151,3 @@ footer {
     color: #CFBE2D;
     text-decoration: none;
 }
-
-.footer-text a:hover {
-    color: #eddd53;
-    text-decoration: underline;
-}
