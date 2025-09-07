@@ -1,117 +1,158 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #d3d3d3;
-    line-height: 2;
+    background: #0f7320;
+    background: radial-gradient(circle, rgba(15, 115, 32, 1) 0%, rgba(11, 77, 39, 1) 56%, rgba(166, 149, 0, 1) 100%);
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+header,
+section,
+footer {
+    margin-bottom: 30px;
 }
 
 .main-title {
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size: 2.5em;
-    margin-top: 10px;
+    font-size: 2.5rem;
+    margin: 10px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .subtitle {
-    font-family: 'Open Sans', sans-serif;
-    color: #008000;
     text-align: center;
-    font-size: 1.5em;
-    margin-top: 10px;
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #CFBE2D;
 }
 
 #foto-breaking_bad {
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.Sinopsis h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #008000;
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 10px;
+.Sinopsis,
+.Produccion {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.sinopsis-text {
-    font-size: 1em;
-    text-align: center;
-
-}
-
+.Sinopsis h2,
 .Produccion h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #008000;
+    color: #CFBE2D;
     text-align: center;
-    font-size: 1.5em;
-    margin-top: 10px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #CFBE2D;
+    padding-bottom: 10px;
 }
 
+.sinopsis-text,
 .produccion-text {
-    font-size: 1em;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.8;
+    padding: 0 15px;
+}
+
+.personajes {
+    overflow-x: auto;
+}
+
+.personajes h2 {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .personajes-table {
-    width: 60%;
+    width: 90%;
+    max-width: 800px;
     margin: 20px auto;
     border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .personajes-table th,
 .personajes-table td {
-    border: 1px solid;
-    padding: 10px;
+    border: 1px solid #CFBE2D;
+    padding: 12px;
     text-align: center;
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
 
 .personajes-table th {
-    background-color: #008000;
-    color: #FFF;
+    background-color: #CFBE2D;
+    color: #000;
     font-weight: bold;
 }
 
 .personaje-image {
-    width: 80%;
+    width: 100%;
     max-width: 125px;
     height: auto;
     display: block;
-
-    /* Centrado */
     margin: 0 auto;
+    border-radius: 4px;
 }
 
 .temporadas-section {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.temporada-image {
-    width: 80%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-
-    /* Centrado */
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+.temporadas-section article {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .temporadas-section h3 {
-    font-family: 'Open Sans', sans-serif;
-    color: #008000;
+    color: #CFBE2D;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    margin-top: 0;
+    border-bottom: 1px solid #CFBE2D;
+    padding-bottom: 10px;
+}
+
+.temporada-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+.temporadas-section p {
+    text-align: justify;
+    line-height: 1.7;
 }
 
 .footer-text {
-    font-size: 1.1em;
     text-align: center;
-    margin-top: 20px;
-    color: #7f8c8d;
-    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
+}
+
+.footer-text a {
+    color: #CFBE2D;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #eddd53;
+    text-decoration: underline;
 }
