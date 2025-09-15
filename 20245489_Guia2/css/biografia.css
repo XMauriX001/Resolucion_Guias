@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Epunda Slab', serif;
+    line-height: 1.5;
+}
+
+.contenedor {
+    background-image: url(../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg),
+        url(../img/fondocontenedor.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+header {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Epunda Slab', serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+header h2 {
+    font-family: 'Epunda Slab', serif;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: normal;
+    color: #444;
+}
+
+#foto-cabecera {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: 3px solid #333;
+}
+
+header nav .apartados {
+    font-family: 'Epunda Slab', serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+header nav .apartados li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+header nav .apartados li a:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+.informacion div {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 9px -6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.informacion div img {
+    width: 30%;
+    max-width: 250px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+div article h2 {
+    font-family: 'Epunda Slab', serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+div article h3 {
+    font-family: 'Epunda Slab', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 5px;
+    color: #333;
+}
+
+article p {
+    font-family: 'Epunda Slab', serif;
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #444;
+    line-height: 1.6;
+}
+
+
+article ul {
+    margin: 15px 20px;
+    padding-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+footer {
+    font-family: 'Epunda Slab', serif;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 1rem;
+}
