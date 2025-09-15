@@ -14,8 +14,7 @@ body {
 }
 
 .contenedor {
-    background-image: url(../img/paisaje-de-montanas-en-el-bosque-diseno-minimalista-6345.jpg),
-        url(../img/fondocontenedor.jpg);
+    background-image: url(../img/fondocontenedor.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
