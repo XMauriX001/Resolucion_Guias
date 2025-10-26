@@ -3,31 +3,127 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resolución de Guías de Desarrollo Web</title>
-    <link rel="stylesheet" href="index_estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portafolio Estudiantil</title>
+    <link rel="stylesheet" href="css/index_estilo.css">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>Resolución de Guías de Desarrollo Web</h1>
+    <div class="contenedor">
+        <header class="encabezado">
+            <div class="perfil">
+                <div class="imagen-perfil">MA</div>
+                <h1>Portafolio Estudiantil</h1>
+                <p class="info-personal">Mauricio Alejandro Recinos Alvarenga</p>
+                <p class="info-personal">Carnet: 20245489</p>
+            </div>
         </header>
 
-        <div class="Guia">
+        <section class="Datos-personales">
+
+            <div class="biografia">
+                <h2>Biografía</h2>
+                <p>Nací el 8 de diciembre del año 2005, actualmente tengo 19 años. Crecí dentro de una familia bastante
+                    amorosa con mi padre y mi madre, yo soy el hijo mayor y tengo 2 hermanos, una niña y un niño. Hoy en
+                    día estudio en la Escuela Superior de Economía y Negocios (ESEN) en la carrera de Ingeniería de
+                    Software y Negocios Digitales. Mi pasión por la tecnología nace desde que estaba en bachillerato
+                    gracias a mi profesor de informática, quien me empezó a introducir dentro de este mundo, por ello
+                    estoy en esta carrera.
+                </p>
+            </div>
+        </section>
+
+        <section class="Datos-materia">
+            <div class="contenidos-materia">
+                <h2>Datos generales de la materia</h2>
+
+                <div class="descripcion-materia">
+                    <h3>Desarrollo Web I</h3>
+                    <p>Este curso es el primero en la secuencia de desarrullo web y cubre los fundamentos básicos
+                        de los lenguajes HTML, CSS y JavaScript, que son los elementos esenciales de cualquier
+                        aplicación web.
+                    </p>
+                </div>
+
+                <h2>Contenidos</h2>
+                <div class="unidad">
+                    <h3>Unidad I: Introducción al HTML</h3>
+                    <ul>
+                        <li>Elementos HTML.</li>
+                        <li>Semántica del HTML.</li>
+                        <li>Atributos HTML.</li>
+                    </ul>
+                </div>
+
+                <div class="unidad">
+                    <h3>Unidad II: Introducción a CSS</h3>
+                    <ul>
+                        <li>Selectores CSS. </li>
+                        <li>Propiedades CSS.</li>
+                        <li>Modelo de caja.</li>
+                    </ul>
+                </div>
+                <div class="unidad">
+                    <h3>Unidad III: Maquetación de sitios web</h3>
+                    <ul>
+                        <li>Posicionamiento y visualización.</li>
+                        <li>Diseño de layout básico.</li>
+                        <li>Diseño responsivo y media queries.</li>
+                        <li>Introducción a flexbox.</li>
+                        <li>CSS Grid.</li>
+                    </ul>
+                </div>
+
+                <div class="unidad">
+                    <h3>Unidad IV: Frameworks de diseño web responsivo</h3>
+                    <ul>
+                        <li>Malla de Bootstrap.</li>
+                        <li>Utilidades para Bootstrap.</li>
+                        <li>Elementos Bootstrap.</li>
+                    </ul>
+                </div>
+
+                <div class="unidad">
+                    <h3>Unidad V: Introducción a JavaScript</h3>
+                    <ul>
+                        <li>Introducción a JavaScript.</li>
+                        <li>Estructuras de control.</li>
+                        <li>Arreglos y objetos.</li>
+                        <li>Funciones y eventos.</li>
+                        <li>Programación orienttada a objetos.</li>
+                    </ul>
+                </div>
+                <div class="unidad">
+                    <h3>Unidad VI: El modelo de objetos del documento (DOM) y JavaScript Asincrónico</h3>
+
+                    <ul>
+                        <li>Manipulación del Document Object Model (DOM).</li>
+                        <li>Notación de Objetos de JavaScript (JSON).</li>
+                        <li>Almacenamiento local.</li>
+                        <li>Programación asincrónica.</li>
+                        <li>AJAX.</li>
+                        <li>Consumo de APIs.</li>
+                        <li>Almacenamiento de datos Firebase.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="guias">
 
             <h2>Guía 1 - Introducción a HTML y CSS</h2>
 
-            <div class="exercises">
-                <div class="exercise-card exercise-1">
-                    <div class="card-header">
+            <div class="ejercicios">
+                <div class="ejercicio-carta ejercicio-1">
+                    <div class="header-carta">
                         Ejercicio 1
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Estilos Embebidos</h3>
                         <p>Este ejercicio muestra el uso de estilos CSS directamente embebidos en las etiquetas HTML
                             mediante el atributo <code>style</code>.</p>
-                        <p>Incluye modificación de colores, tamaños de texto, transformaciones de texto y alineación.
+                        <p>Incluye modificación de culores, tamaños de texto, transformaciones de texto y alineación.
                         </p>
                         <a href="20245489_Guia1/estilos_embebidos.html" class="btn">Abrir Ejercicio
                             1</a>
@@ -35,27 +131,27 @@
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-2">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-2">
+                    <div class="header-carta">
                         Ejercicio 2
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Etiqueta Style</h3>
                         <p>Este ejercicio demuestra el uso de la etiqueta <code>&lt;style&gt;</code> dentro del
                             <code>&lt;head&gt;</code> del documento HTML.
                         </p>
-                        <p>Incluye estilos para diferentes clases, aplicando colores, fuentes, alineación y decoración
+                        <p>Incluye estilos para diferentes clases, aplicando culores, fuentes, alineación y decoración
                             de texto.</p>
                         <a href="20245489_Guia1/ejemplo2.html" class="btn">Abrir Ejercicio 2</a>
 
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-3">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-3">
+                    <div class="header-carta">
                         Ejercicio 3
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>CSS Externo</h3>
                         <p>Este ejercicio utiliza un archivo CSS externo vinculado mediante la etiqueta
                             <code>&lt;link&gt;</code>.
@@ -66,11 +162,11 @@
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-4">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-4">
+                    <div class="header-carta">
                         Ejercicio
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Serie Breaking Bad</h3>
                         <p>Este ejercicio es una página personal hecha con el próposito de dar a conocer la historia de
                             la serie
@@ -82,28 +178,28 @@
             </div>
         </div>
 
-        <div class="Guia">
+        <div class="guias">
             <h2>Guía 2 - Selectores CSS avanzados y modelo de caja</h2>
-            <div class="exercises">
-                <div class="exercise-card exercise-1">
-                    <div class="card-header">
+            <div class="ejercicios">
+                <div class="ejercicio-carta ejercicio-1">
+                    <div class="header-carta">
                         Ejercicio 1
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Selectores CSS avanzados</h3>
                         <p>Este ejercicio muestra el uso de selectores CSS avanzados para aplicar estilos a diferentes
                             elementos de un documento HTML.</p>
-                        <p>Incluye modificación de colores, tamaños de texto, transformaciones de texto y alineación.
+                        <p>Incluye modificación de culores, tamaños de texto, transformaciones de texto y alineación.
                             <a href="20245489_Guia2/pelicula.html" class="btn">Abrir Ejercicio 1
                             </a>
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-2">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-2">
+                    <div class="header-carta">
                         Ejercicio 2
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Diseñando un tablero para damas con la pseudo-clase :nth-child() </h3>
                         <p>Este ejercicio demuestra el uso de la pseudo-clase :nth-child() para aplicar estilos a
                             elementos de un documento HTML.
@@ -113,11 +209,11 @@
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-3">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-3">
+                    <div class="header-carta">
                         Ejercicio 3
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Mi biografía</h3>
                         <p>Este ejercicio es una página personal hecha con el próposito de dar a conocer mi historia</p>
                         <p>Incluye información sobre mi trayectoria académica, habilidades e intereses, metas a futuro.
@@ -128,15 +224,15 @@
             </div>
         </div>
 
-        <div class="Guia">
+        <div class="guias">
             <h2>Guía 3 - Posicionamiento, visualización y maquetación de sitios web</h2>
-            <div class="exercises">
-                <div class="exercise-card exercise-1">
-                    <div class="card-header">
+            <div class="ejercicios">
+                <div class="ejercicio-carta ejercicio-1">
+                    <div class="header-carta">
                         Ejercicio 1
                     </div>
 
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Usando posicionamiento y visualización</h3>
                         <p>Este ejercicio demuestra el uso de posicionamiento y visualización para crear un sitio web
                         </p>
@@ -147,11 +243,11 @@
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-2">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-2">
+                    <div class="header-carta">
                         Ejercicio 2
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Diseñando un menú horizontal multinivel </h3>
                         <p> Este ejercicio desmuestra la cración de un menú horizontal multinivel con CSS.</p>
                         <a href="20245489_Guia3/menu_horizontal.html" class="btn">Abrir Ejercico 2</a>
@@ -159,11 +255,11 @@
                     </div>
                 </div>
 
-                <div class="exercise-card exercise-3">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-3">
+                    <div class="header-carta">
                         Ejercicio 3
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Construyendo un diseño fijo y flexible</h3>
                         <p> Este ejercicio demuestra el uso de un diseño fijo y flexible junto con los componentes
                             esenciales que lo diferenciasen.</p>
@@ -173,11 +269,11 @@
                         <a href="20245489_Guia3/index.html" class="btn">Abrir Ejercicio 3</a>
                     </div>
                 </div>
-                <div class="exercise-card exercise-4">
-                    <div class="card-header">
+                <div class="ejercicio-carta ejercicio-4">
+                    <div class="header-carta">
                         Ejercicio 4
                     </div>
-                    <div class="card-body">
+                    <div class="body-carta">
                         <h3>Usando posicionamiento y z-index</h3>
                         <p>Este ejercicio demuestra una mano de poker y el posicionamiento de las cartas utilizando
                             propiedades de posicionamiento y z-index
@@ -189,6 +285,100 @@
 
             </div>
         </div>
+        <div class="guias">
+            <h2>Guía 4 - Introducción al Responsive Design</h2>
+            <div class="ejercicios">
+                <div class="ejercicio-carta ejercicio-1">
+                    <div class="header-carta">
+                        Ejercicio 1
+                    </div>
+
+                    <div class="body-carta">
+                        <h3>Utilizando los media queries</h3>
+                        <p>Este ejercicio demuestra el uso de media queries para crear un diseño responsivo que se
+                            adapta a diferentes tamaños de pantalla.
+                        </p>
+                        <p>También, incluye un diseño de una página web básica que se adapta a diferentes
+                            tamaños y adapta un nuevo estilo.
+                        </p>
+                        <a href="20245489_Guia4/mediaqueries.html" class="btn">Abrir Ejercicio 1</a>
+
+
+                    </div>
+                </div>
+
+                <div class="ejercicio-carta ejercicio-2">
+                    <div class="header-carta">
+                        Ejercicio 2
+                    </div>
+                    <div class="body-carta">
+                        <h3>Construyendo un Layout responsivo</h3>
+                        <p> Este ejercicio retoma el ejemplo de agencias de viajes de la guía anterior con
+                            ciertos ajustes en su diseño para hacerlo responsivo.</p>
+                        </p>
+                        <p> El ejercicio incluye una página principal junto con otros dos apartados de planes
+                            y galería de fotos.
+                        </p>
+                        <a href="20245489_Guia4/index.html" class="btn">Abrir Ejercico 2</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="analisis-foda">
+            <h2>Análisis FODA sobre mi Desempeño</h2>
+
+            <div class="contenedor-foda">
+                <div class="categoria-foda fortalezas">
+                    <div class="icono-foda">💪</div>
+                    <h3>Fortalezas</h3>
+                    <p>¿Qué habilidades he dominado o mejorado significativamente?</p>
+                    <ul>
+                        <li>Comprensión sólida de la semántica HTML</li>
+                        <li>Manejo de selectores CSS y propiedades avanzadas</li>
+                        <li>Capacidad para crear páginas web responsivas</li>
+                        <li>Buen manejo del modelo de caja y posicionamiento</li>
+                    </ul>
+                </div>
+
+                <div class="categoria-foda oportunidades">
+                    <div class="icono-foda">🚀</div>
+                    <h3>Oportunidades</h3>
+                    <p>¿Qué he aprendido que me puede servir en otros proyectos o ámbitos profesionales?</p>
+                    <ul>
+                        <li>Desarrollo de interfaces de usuario atractivas</li>
+                        <li>Optimización de sitios web para diferentes dispositivos</li>
+                        <li>Buenas prácticas de organización de código</li>
+                        <li>Habilidades de resolución de problemas técnicos</li>
+                    </ul>
+                </div>
+
+                <div class="categoria-foda debilidades">
+                    <div class="icono-foda">🔧</div>
+                    <h3>Debilidades</h3>
+                    <p>¿Qué áreas del desarrollo web siento que necesito seguir trabajando?</p>
+                    <ul>
+                        <li>Dominio de JavaScript</li>
+                        <li>Optimización de rendimiento en proyectos grandes</li>
+                        <li>Uso de frameworks</li>
+                        <li>Aprender a integrar aplicaciones web con bases de datos y APIs</li>
+                    </ul>
+                </div>
+
+                <div class="categoria-foda amenazas">
+                    <div class="icono-foda">⚠️</div>
+                    <h3>Amenazas</h3>
+                    <p>¿Qué obstáculos encontré (personales o técnicos) que podrían haber impactado mi progreso?</p>
+                    <ul>
+                        <li>Curva de aprendizaje inicial con conceptos abstractos</li>
+                        <li>Gestión del tiempo entre múltiples asignaturas</li>
+                        <li>EMpezar nuevas herramientas o tecnologías que se han complicado en cierto modo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <footer>
             <p>© 2025 - 20245489 Mauricio Alejandro Recinos Alvarenga</p>
         </footer>
